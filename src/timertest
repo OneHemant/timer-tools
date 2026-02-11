@@ -1,0 +1,13 @@
+function App() {
+  return (
+    <div className="app">
+      <div className="timer">00:00</div>
+      <div className="controls">
+        <button>Start</button>
+        <button>Stop</button>
+      </div>
+    </div>
+  );
+}
+
+export default App;
